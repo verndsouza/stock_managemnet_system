@@ -1,0 +1,323 @@
+
+html, body, header, footer, aside, div, p, h1, h2, h3,li,ul
+{
+   margin: 0;
+   padding: 0;
+   font-family: "Lucida Grande" , "Lucida Sans Unicode", "Lucida Sans", "Geneva", Verdana, sans-serif;
+   font-size: 0.8em;
+   }
+#head
+{
+  font-size:1.75em;
+  margin-left: 14%;
+margin-top: 1%;
+}
+.error
+{
+  color:red;
+}
+h1 { font-size: 7em; margin:0.25em ;text-align: center; ;}
+h2 { font-size: 1.25em; margin: 0.25em;}
+h3 { font-size: 2.5em; margin: 0.25em;text-align: center;}
+p { margin: 0.25em 0; }
+a:link, a:visited { color: #ffffff; }
+h9{ font-size: 2.5em;}
+.button {
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 25px 42px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 16px;
+}
+.button1{
+  float: left;
+  text-align: center;
+}
+
+ul.topul li {
+    display: inline;
+    font-size: 1em;
+}
+ul.topul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+ul.topul li {
+    float: right;
+}
+
+ul.topul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+ul.sideul li {
+    font-size: 1.25em;
+}
+ul.sideul {
+  position: absolute;
+    float: left;
+    list-style-type: none;
+    margin-top: -182px;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+    font-size: 1em;
+    height: 100%;
+    width: 14%;
+   
+}
+
+ul.sideul li a {
+    display: block;
+    color: #ffffff;
+    text-align:left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2.5em;
+}
+
+header {
+   color: #ffffff;
+   background-color: darkslategray;
+   height: 15em;
+   padding: 0.5em;
+}
+#main {
+   padding: 0;
+   margin-top: -9px;
+   margin-left: -2px;
+   margin-left: 0;
+
+}
+#main1 {
+   padding: 0;
+   margin-top: -9px;
+   margin-left: -2px;
+   margin-left: 0;
+   margin-top:0px;
+
+}
+nav {
+   color: #ffffff;
+   background-color: #A9A9A9;
+   padding: 0.5em;
+   width: 10em;
+   float: left;
+
+}
+table {
+    border-collapse: collapse;
+    width: 86%;
+    float:right;
+    font-size: 1.65em;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+form
+{
+  margin-left: -5.75%;
+  font-size: 2.95em;
+  color:darkslategray;
+}
+th {
+    background-color: darkslategray;
+    color: white;
+}
+footer {
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height:5em;
+  padding: 0.5rem;
+  color: #ffffff;
+   text-align: right;
+   background-color: darkslategray;
+
+}
+input.end
+{
+  background-color: darkslategray;
+  color: #ffffff;
+}
+h2{
+  font-size: 1.5em;
+  margin-left: 140px;
+  text-decoration: none;
+  color:darkslategray;
+}
+#main2
+{
+  float:right;
+  color:darkslategray;
+  margin-top:-35px;
+  text-decoration: none;
+}
+#main3
+{
+  font-size:2em; 
+  margin:0%;
+  margin-left:-45px;
+}
+#bull{
+  margin: 15px auto 0px 8%;
+}
+#foot{
+  margin-top: 300px;
+}
+#form{
+  font-size:13px;
+  margin-left:100px;
+  margin-top: 20px;
+  font:darkslategray;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px)
+{
+  h1{
+    font-size: 2em;
+  }
+  h3{
+    font-size: 0.75em;
+  }
+  ul.topul{
+    font-size:0.2em;
+    height:12em;
+    /*margin-top: 61px;*/
+  }
+  header
+  {
+    height:3em;
+  }
+  ul.sideul
+  {
+    font-size: 0.35em;
+    height: 130%;
+    margin-top:-203px;
+  }
+  #abc
+  {
+    margin-top: 177px;
+  }
+  footer
+  {
+    height: 3em;
+  }
+  ul.topul li {
+    margin-right: -4%;
+    font-size: 1.5em;
+  }
+  h9
+  {
+    font-size: 1em;
+  }
+  .button1 {
+    font-size: 0.5em;
+  }
+  #form10{
+    font-size: 0.95em;
+  }
+  table
+  {
+    font-size: 0.41em;
+    margin-top: 4%;
+  }
+#head
+  {
+    font-size: 1em;
+    margin-top: 4%;
+  }
+  .button2
+  {
+    font-size: 1.5em;
+    padding:0;
+  }
+  input[type=radio] {
+    border: 0px;
+   width: 11%;
+height: 1em;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    h1{
+    font-size: 2.5em;
+  }
+  h3{
+    font-size: 1em;
+  }
+  ul.topul{
+    font-size:0.2em;
+    height:12em;
+    /*margin-top: 61px;*/
+  }
+  header
+  {
+    height:4em;
+  }
+  ul.sideul
+  {
+    font-size: 0.35em;
+    height: 111%;
+    margin-top:-170px;
+  }
+  #abc
+  {
+    margin-top: 177px;
+  }
+  footer
+  {
+    height: 3em;
+  }
+  ul.topul li {
+    margin-right:0%;
+    font-size: 1.5em;
+  }
+  h9
+  {
+    font-size: 1em;
+  }
+  .button1 {
+    font-size: 0.5em;
+  }
+  #form10{
+    font-size: 1.8em;
+  }
+  table
+  {
+    font-size: 0.71em;
+    margin-top: 4%;
+  }
+#head
+  {
+    font-size: 1em;
+    margin-top: 4%;
+  }
+  .button2
+  {
+    font-size: 1.5em;
+    padding:0;
+  }
+  input[type=radio] {
+    border: 0px;
+   width: 11%;
+height: 1em;
+
+}
+}
