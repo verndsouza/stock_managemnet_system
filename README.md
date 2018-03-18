@@ -1,0 +1,1 @@
+# stock_managemnet_system
